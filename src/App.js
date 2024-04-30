@@ -63,7 +63,12 @@ const AboutSection = () => {
 
 const SkillList = () => {
   return skillBag.map((skill) => (
-    <ItemComp skill={skill.skill} level={skill.level} color={skill.color} />
+    <ItemComp
+      skill={skill.skill}
+      level={skill.level}
+      color={skill.color}
+      key={skillBag.skill}
+    />
   ));
 };
 const ItemComp = ({ skill, level, color }) => {
