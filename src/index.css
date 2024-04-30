@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  border: 4px solid black;
+}
+.Avatar {
+  width: inherit;
+  height: 350px;
+}
+.AboutSection {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.AboutSection p {
+  padding: 10px 0;
+  font-size: 14px;
+  word-spacing: 5px;
+  font-weight: 600;
+}
+
+.skill-List {
+  /* margin: 5px 0; */
+}
+.skillItem {
+  display: inline;
+  max-width: fit-content;
+  border-radius: 5px;
+}
+.skillItem span {
+  font-weight: 600;
+  padding: 7px;
+}
+.skillsContainer {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 15px;
+}
